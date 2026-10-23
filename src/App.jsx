@@ -41,7 +41,7 @@ export default function App() {
     <div className='App'>
       <header>
         <h1 className='title'>TaskFlow</h1>
-        <p clssName='tagline'>Your friendly TaskManager</p>
+        <p className='tagline'>Your friendly TaskManager</p>
       </header>
       <TaskForm addTask={addTask}/>
       <TaskList tasks = {tasks}

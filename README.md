@@ -1,16 +1,110 @@
-# React + Vite
+# 📋 TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Task Management Application** built with **React**, **JavaScript**, and **Vite**. TaskFlow helps users organize daily tasks with priorities, categories, progress tracking, and persistent storage using **Local Storage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as complete or undo completed tasks
+- 🎯 Assign task priorities (High, Medium, Low)
+- 📂 Organize tasks by category
+- 📊 Real-time progress tracking
+- 📈 Task statistics
+- 💾 Local Storage support (tasks persist after refresh)
+- 🧹 Clear all tasks
+- 📱 Responsive and modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- CSS3
+- Vite
+- Local Storage
+
+---
+
+## 📸 Screenshots
+
+## 📸 Screenshot
+
+![TaskFlow](./screenshots/taskflow.png)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Arsh173/taskflow.git
+```
+
+Navigate to the project folder
+
+```bash
+cd taskflow
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```
+taskflow/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── Style.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🔮 Future Improvements
+
+- ✏️ Edit existing tasks
+- 🔍 Search tasks
+- 📅 Due dates
+- 🌙 Dark/Light theme toggle
+- ☁️ Backend integration
+- 👤 User authentication
+
+---
+
+## 👨‍💻 Author
+
+**Arsh**
+
+GitHub: https://github.com/Arsh173
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub!
